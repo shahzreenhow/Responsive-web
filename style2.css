@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+div#container {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+    max-width: 700px;
+  
+}
+
+header {
+    width: inherit;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* ul#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 30px;
+}
+
+ul#menu li {
+    margin: 0 20px;
+} */
+
+section#banner {
+    width: inherit;
+    height: auto;
+    /* background-color: khaki; */
+}
+
+div#image1 {
+    width: inherit;
+    height: 300px;
+    background-color: skyblue;
+    margin: 0 auto;
+    /* max-width: 700px; */
+    text-align: center;
+}
+
+div#image1 img {
+    width: 100%;
+    height: 300px;
+}
+
+section#band {
+    width: inherit;
+    height: 300px;
+    /* background-color: lightgreen; */
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+div#theband {
+    width: inherit;
+    height: 300px;
+    /* background-color: khaki; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+div#theband h3 {
+    letter-spacing: 5px;
+}
+
+div#theband p {
+    margin: -30px 20px;
+    padding-bottom: 30px;
+}
+
+section#name {
+    width: inherit;
+    height: auto;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+div.name1 {
+    width: inherit;
+    height: 300px;
+    /* background-color: grey; */
+    text-align: center;
+    transition: all 0.7s;
+}
+
+.name1:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+section#tour {
+    width: inherit;
+    height: 200px;
+    background-color: black;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+div#dates {
+    width: inherit;
+    height: 600px;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+div#dates h3{
+    letter-spacing: 5px;
+}
+
+div#months {
+    width: inherit;
+    height: 100px;
+    background-color: white;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+section#places {
+    width: inherit;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    /* max-width: 900px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 40px 10px;
+    color: black;
+}
+
+div.newyork {
+    width: inherit;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.7s;
+    margin: 10px auto;
+}
+
+.newyork:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+div.newyork img {
+    width: 500px;
+}
+
+div#text2 {
+    /* background-color: red; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: -40px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+section#contact {
+    width: inherit;
+    height: 400px;
+    /* background-color: yellow; */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+div#contact1 {
+    width: inherit;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#contact1 h3 {
+    letter-spacing: 5px;
+}
+
+div#email {
+    width: inherit;
+    height: 150px;
+    /* background-color: orange; */
+}
+
+div#chicago {
+    width: inherit;
+    height: 150px;
+    /* background-color: khaki; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+div#chicago ul{
+    list-style-type: none;
+}
+
+div#chicago li {
+    margin: 10px 10px;
+}
+
+.fas {
+    padding: 0 10px;
+}
+
+div#message {
+    width: inherit;
+    height: 150px;
+    /* background-color: skyblue; */
+   
+}
+
+#placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#textbox {
+    width: 300px;
+}
+
+section#last {
+    width: inherit;
+    height: 400px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 700px;
+}
+
+section#last img {
+    width: 100%;
+    height: 300px;
+}
+
+div#icon {
+    width: inherit;
+    height: 100px;
+    /* background-color: blue; */
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+
+    section#name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        padding-top: 20px;
+    }
+
+    div.name1 {
+        width: 30%;
+        margin: 0 30px;
+    }
+
+    section#contact {
+        height: 250px;
+    }
+
+    section#places {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 700px;
+    }
+
+    div.newyork {
+        width: 30%;
+        height: 300px;
+    }
+
+    div#text2 {
+        width: 200px;
+        height: 200px;
+        margin: 20px 20px;
+    }
+
+    div#email {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #placeholder {
+        padding: 40px 20px;
+    }
+
+
+    
+}
