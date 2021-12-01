@@ -18,7 +18,6 @@ div#container {
     height: auto;
     /* border: 2px solid blue; */
     margin: 0 auto;
-    max-width: 700px;
   
 }
 
@@ -34,19 +33,6 @@ header {
     padding: 0 20px;
 }
 
-/* ul#menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    margin: 0 30px;
-}
-
-ul#menu li {
-    margin: 0 20px;
-} */
-
 section#banner {
     width: inherit;
     height: auto;
@@ -55,7 +41,7 @@ section#banner {
 
 div#image1 {
     width: inherit;
-    height: 300px;
+    height: 400px;
     background-color: skyblue;
     margin: 0 auto;
     /* max-width: 700px; */
@@ -64,7 +50,7 @@ div#image1 {
 
 div#image1 img {
     width: 100%;
-    height: 300px;
+    height: inherit;
 }
 
 section#band {
@@ -125,7 +111,7 @@ section#tour {
     width: inherit;
     height: 200px;
     background-color: black;
-    max-width: 700px;
+    /* max-width: 700px; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -163,7 +149,7 @@ section#places {
     height: auto;
     background-color: black;
     margin: 0 auto;
-    /* max-width: 900px; */
+    max-width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -281,16 +267,16 @@ div#message {
 
 section#last {
     width: inherit;
-    height: 400px;
+    height: 500px;
     /* background-color: blue; */
     margin: 0 auto;
     overflow: hidden;
-    max-width: 700px;
+    /* max-width: 700px; */
 }
 
 section#last img {
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 div#icon {
@@ -330,12 +316,13 @@ div#icon {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        max-width: 700px;
+        /* max-width: 700px; */
+        margin: 0 auto;
     }
 
     div.newyork {
         width: 30%;
-        height: 300px;
+        /* height: 300px; */
     }
 
     div#text2 {
