@@ -145,9 +145,15 @@ div#months {
 }
 
 section#places {
-    width: inherit;
+    width: 100%;
     height: auto;
     background-color: black;
+    
+}
+
+#places__container {
+    width: 100%;
+    height: inherit;
     margin: 0 auto;
     max-width: 100%;
     color: white;
@@ -155,6 +161,7 @@ section#places {
     flex-direction: column;
     padding: 10px 10px 40px 10px;
     color: black;
+    /* background-color:grey; */
 }
 
 div.newyork {
@@ -316,19 +323,32 @@ div#icon {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        /* max-width: 700px; */
+        margin: 0 auto;
+    }
+
+    #places__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 700px;
         margin: 0 auto;
     }
 
     div.newyork {
         width: 30%;
-        /* height: 300px; */
+        height: 350px;
+    }
+
+    .newyork img {
+        height: 200px;
     }
 
     div#text2 {
         width: 200px;
         height: 200px;
         margin: 20px 20px;
+        padding: 0 10px;
     }
 
     div#email {
